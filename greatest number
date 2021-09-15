@@ -1,0 +1,8 @@
+largest_so_far = 0
+print("before",largest_so_far)
+l = [3,56,76,89,90,5,34]
+for num in l:
+    if num > largest_so_far:
+        largest_so_far = num
+    print(num,largest_so_far)
+print("after:",largest_so_far)
